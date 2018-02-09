@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #4682b4;
 }
 /* Link Styles */
 
@@ -67,6 +67,7 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  border: 6px solid #2f4f4f;
 }
 header {
   line-height: 1.5;
@@ -78,10 +79,12 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  border: 5px solid #f0f8ff;
 }
 header .profile-image:hover {
   transform: scale(1.4) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
